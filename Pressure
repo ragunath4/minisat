@@ -18,6 +18,6 @@ utime.sleep(2)
 
 while True:
     pressure = bmp280.pressure
-    print("pressure:",pressure)
+    print("pressure:",pressure - 150 )
     utime.sleep(1)
 
